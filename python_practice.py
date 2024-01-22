@@ -13,3 +13,4 @@ years_to_experience = 3
 print("Name: \t\t\tBrendan Obilo") 
 print("Program: \t\tPython")
 print("Years to complete: \t" + str(years_to_experience))
+print(type([1, 2, 3, 5]))
