@@ -55,3 +55,5 @@ else:
 # output
 # print(“The number of rubber ducks required is” + total_rubber_ducks)
     print("The number of rubber ducks required is " + str(total_rubber_ducks))
+
+print("press enter to end..........")
