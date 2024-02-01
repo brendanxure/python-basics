@@ -1,0 +1,16 @@
+#######################################################
+#  Program title:         hello
+#  Program Author:        Brendan Obilo
+#  Date:                  23/01/2024
+#
+#  Description:           A simple script called hello.py,
+#                         which should ask the user to input their name
+#                         and then print the exact string Hello name
+#                         to the screen.
+#########################################################
+
+# initializing variables
+name = input("Please write your name: ")
+
+# outcome
+print("Hello " + str(name) + "!")
