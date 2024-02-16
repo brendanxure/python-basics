@@ -75,3 +75,4 @@ average_number = float((first_number + second_number)/AVERAGE)
 
 # Print the required outcome
 print(average_number)
+

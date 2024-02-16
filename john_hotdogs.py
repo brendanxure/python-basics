@@ -39,6 +39,7 @@ while select_hotdog:
                                 + " for Tradtional Hotdogs\nPlease enter " + str(veggie)
                                 + " for Veggie\nPlease enter " +
                                 str(curry) + " for Curry\nPlease enter " + str(calculate) + " to calculate percentage\n "))
+        # If bulk_input is equal traditional hotdogs
         if(bulk_input == traditional):
             amount_input = int(input(f"Please enter quantity for Traditional Hot Dogs: "))
             if(amount_input >= 0):
