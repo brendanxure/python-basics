@@ -43,6 +43,7 @@ while select_hotdog:
         if(bulk_input == traditional):
             # Ask user to input which traditional hotdog they sold
             amount_input = int(input(f"Please enter quantity for Traditional Hot Dogs: "))
+            # Check if input is greater than or equal to 0
             if(amount_input >= 0):
                 print(f"{amount_input}")
                 traditional_list.append(amount_input)
