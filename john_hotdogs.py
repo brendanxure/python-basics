@@ -46,6 +46,7 @@ while select_hotdog:
             # Check if input is greater than or equal to 0
             if(amount_input >= 0):
                 print(f"{amount_input}")
+                # insert the number in the traditional list
                 traditional_list.append(amount_input)
             else:
                 print("Negatives are invalid")
