@@ -54,6 +54,7 @@ while select_hotdog:
             # check if input is equal veggie hotdogs
         elif(bulk_input == veggie):
             amount_input = int(input(f"Please enter quantity for Veggie Hot Dogs: "))
+            # check if amount_input >= 0
             if(amount_input >= 0):
                 print(f"{amount_input}")
                 veggie_list.append(amount_input)
