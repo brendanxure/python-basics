@@ -57,6 +57,7 @@ while select_hotdog:
             # check if amount_input >= 0
             if(amount_input >= 0):
                 print(f"{amount_input}")
+                # insert the number in the veggie list
                 veggie_list.append(amount_input)
             else:
                 print("Negatives are invalid")
