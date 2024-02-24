@@ -60,6 +60,7 @@ while select_hotdog:
                 # insert the number in the veggie list
                 veggie_list.append(amount_input)
             else:
+                # print negatives are invalid
                 print("Negatives are invalid")
         elif(bulk_input == curry):
             amount_input = int(input(f"Please enter quantity for Curry Hot Dogs: "))
