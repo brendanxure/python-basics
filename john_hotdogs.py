@@ -63,6 +63,7 @@ while select_hotdog:
                 # print negatives are invalid
                 print("Negatives are invalid")
         elif(bulk_input == curry):
+            # input quantity for curry
             amount_input = int(input(f"Please enter quantity for Curry Hot Dogs: "))
             if(amount_input >= 0):
                 print(f"{amount_input}")
