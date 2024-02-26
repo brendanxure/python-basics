@@ -65,6 +65,7 @@ while select_hotdog:
         elif(bulk_input == curry):
             # input quantity for curry
             amount_input = int(input(f"Please enter quantity for Curry Hot Dogs: "))
+            # if input quantity is greater than or equal to zero
             if(amount_input >= 0):
                 print(f"{amount_input}")
                 curry_list.append(amount_input)
