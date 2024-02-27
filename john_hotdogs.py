@@ -68,6 +68,7 @@ while select_hotdog:
             # if input quantity is greater than or equal to zero
             if(amount_input >= 0):
                 print(f"{amount_input}")
+                # insert the number in the curry list
                 curry_list.append(amount_input)
             else:
                 print("Negatives are invalid")
