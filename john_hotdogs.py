@@ -71,6 +71,7 @@ while select_hotdog:
                 # insert the number in the curry list
                 curry_list.append(amount_input)
             else:
+                # print negatives are invalid
                 print("Negatives are invalid")
         elif(bulk_input == calculate):
             select_hotdog = False
