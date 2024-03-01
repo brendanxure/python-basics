@@ -75,6 +75,7 @@ while select_hotdog:
                 # print negatives are invalid
                 print("Negatives are invalid")
         elif(bulk_input == calculate):
+            # set loop to false
             select_hotdog = False
             total_sum = int(sum(traditional_list) + sum(veggie_list) + sum(curry_list))
             if(total_sum > 0):
