@@ -77,6 +77,7 @@ while select_hotdog:
         elif(bulk_input == calculate):
             # set loop to false
             select_hotdog = False
+            # calculate the sum of all hotdogs
             total_sum = int(sum(traditional_list) + sum(veggie_list) + sum(curry_list))
             if(total_sum > 0):
                 percentage_traditional = (sum(traditional_list)/total_sum) * 100
