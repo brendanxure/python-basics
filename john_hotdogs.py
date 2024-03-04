@@ -81,6 +81,7 @@ while select_hotdog:
             total_sum = int(sum(traditional_list) + sum(veggie_list) + sum(curry_list))
             # if the sum is greater than zero
             if(total_sum > 0):
+                # percentage for traditional hotdogs
                 percentage_traditional = (sum(traditional_list)/total_sum) * 100
                 percentage_veggie = (sum(veggie_list)/total_sum) * 100
                 percentage_curry = (sum(curry_list)/total_sum) * 100
