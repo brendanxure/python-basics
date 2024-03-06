@@ -85,6 +85,7 @@ while select_hotdog:
                 percentage_traditional = (sum(traditional_list)/total_sum) * 100
                 # percentage for veggie hotdogs
                 percentage_veggie = (sum(veggie_list)/total_sum) * 100
+                # percentage for curry hotdogs
                 percentage_curry = (sum(curry_list)/total_sum) * 100
                 print("You sold\nTraditional:\t" + str("{:.2f}".format(percentage_traditional)) + " %\nVeggie:\t\t"
                         + str("{:.2f}".format(percentage_veggie)) + " %\nCurry:\t\t" + str("{:.2f}".format(percentage_curry)) + " %")
