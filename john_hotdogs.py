@@ -90,6 +90,7 @@ while select_hotdog:
                 # the total hotdog sold for each
                 print("You sold\nTraditional:\t" + str("{:.2f}".format(percentage_traditional)) + " %\nVeggie:\t\t"
                         + str("{:.2f}".format(percentage_veggie)) + " %\nCurry:\t\t" + str("{:.2f}".format(percentage_curry)) + " %")
+            # else
             else:
                 # print("Please input valid values before calculating")
                 print("Please input valid values before calculating")
