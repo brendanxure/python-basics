@@ -94,6 +94,7 @@ while select_hotdog:
             else:
                 # print("Please input valid values before calculating")
                 print("Please input valid values before calculating")
+        # else
         else:
             print("Please Enter a valid option")
 
