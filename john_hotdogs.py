@@ -100,5 +100,6 @@ while select_hotdog:
             print("Please Enter a valid option")
     # except:
     except:
+        # print("Please enter a valid integer")
         print("Please enter a valid integer")
 
