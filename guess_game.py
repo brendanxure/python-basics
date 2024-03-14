@@ -27,6 +27,7 @@ getting_close = True
 # keep_guessing = True
 keep_guessing = True
 
+# while keep_guessing:
 while keep_guessing:
     try:
         counter += 1
