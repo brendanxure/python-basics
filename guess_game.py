@@ -29,7 +29,9 @@ keep_guessing = True
 
 # while keep_guessing:
 while keep_guessing:
+    # try:
     try:
+        # counter += 1
         counter += 1
         user_input = int(input("Guess a number between " + str(min_num) + " and " + str(max_num) + " : "))
         if min_num < user_input or user_input < max_num:
