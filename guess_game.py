@@ -37,6 +37,7 @@ while keep_guessing:
         user_input = int(input("Guess a number between " + str(min_num) + " and " + str(max_num) + " : "))
         # if min_num < user_input or user_input < max_num:
         if min_num < user_input or user_input < max_num:
+            # if user_input == answer:
             if user_input == answer:
                 print("You have got the answer after " + str(counter) + " tries!")
                 keep_guessing = False
