@@ -39,6 +39,7 @@ while keep_guessing:
         if min_num < user_input or user_input < max_num:
             # if user_input == answer
             if user_input == answer:
+                # print("You have got the answer after " + str(counter) + " tries!")
                 print("You have got the answer after " + str(counter) + " tries!")
                 keep_guessing = False
             elif user_input < answer:
