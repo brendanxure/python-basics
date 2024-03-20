@@ -41,7 +41,9 @@ while keep_guessing:
             if user_input == answer:
                 # print("You have got the answer after " + str(counter) + " tries!")
                 print("You have got the answer after " + str(counter) + " tries!")
+                # keep_guessing = False
                 keep_guessing = False
+                # elif user_input < answer:
             elif user_input < answer:
                 min_num = user_input
                 print("The number I have is bigger than " + str(user_input))
