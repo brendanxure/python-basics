@@ -45,6 +45,7 @@ while keep_guessing:
                 keep_guessing = False
                 # elif user_input < answer:
             elif user_input < answer:
+                # min_num = user_input
                 min_num = user_input
                 print("The number I have is bigger than " + str(user_input))
             else:
