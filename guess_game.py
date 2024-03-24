@@ -49,6 +49,7 @@ while keep_guessing:
                 min_num = user_input
                 # print("The number I have is bigger than " + str(user_input))
                 print("The number I have is bigger than " + str(user_input))
+            # else:
             else:
                 max_num = user_input
                 print("The number I have is smaller than " + str(user_input))
