@@ -55,6 +55,7 @@ while keep_guessing:
                 max_num = user_input
                 # print("The number I have is smaller than " + str(user_input))
                 print("The number I have is smaller than " + str(user_input))
+        # else:
         else:
             print("Sorry, input must be between " + str(min_num) + " and " + str(max_num) + ", inclusively!")
     except ValueError: 
