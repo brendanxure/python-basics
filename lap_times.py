@@ -47,6 +47,7 @@ try:
     minimum_time = min(time)
     # print output
     print("Best lap: " + str(minimum_time))
+    # print output
     print("Worst lap: " + str(maximum_time))
 # Incase of any wrong input
 except ValueError:
