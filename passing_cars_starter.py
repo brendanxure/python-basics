@@ -84,6 +84,7 @@ def calculate(_event=None):
 
 # reset function
 def reset(_event=None):
+    # clear entry speed 1
     entry_speed_1.delete(0, END)
     entry_speed_2.delete(0, END)
     label_output.configure(text = "")
