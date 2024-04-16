@@ -11,6 +11,8 @@
 
 # initializing variables
 name = input("Please write your name: ")
+person = 'brendan'
 
 # outcome
 print("Hello " + str(name) + "!")
+print("Hello I am"  + str(person) + "!")
