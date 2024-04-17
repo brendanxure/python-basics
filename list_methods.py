@@ -17,7 +17,7 @@ print(capitals[0])
 # Add “Paris” to the end of the list and print the updated list.
 capitals.append("Paris")
 print(capitals)
-# Reverse the items of the list and subsequently print the updated list.
+# Reverse the items of the list & subsequently print the updated list.
 capitals.reverse()
 print(capitals)
 # Add “Cape Town” to the end of the list and print the updated list.
