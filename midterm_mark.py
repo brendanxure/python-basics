@@ -214,5 +214,5 @@ if percent_midterm_grade >= PERCENT:
 # print("MidTerm Grade is: PERCENT")
     print(f"Total MidTerm Grade is: {PERCENT} %")
 else:
-# print(“MidTerm Grade is: ” 2dec_point(percent_midterm_grade))
+# print(“MidTerm Grade is:" 2dec_point(percent_midterm_grade))
     print(f"Total MidTerm Grade is: {round(percent_midterm_grade, 2)} %")
