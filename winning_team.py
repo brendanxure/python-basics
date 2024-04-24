@@ -62,6 +62,7 @@ def submit(_event=None):
         input_away_score = float(entry_away_score.get())
         # if input_team_side.strip() == '':
         if input_team_side.strip() == '':
+            # returnValue =  'Please enter team side'
             returnValue =  'Please enter team side'
         elif input_home_score < 0: 
             returnValue = 'Please enter home score greater than 0'
