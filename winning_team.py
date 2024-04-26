@@ -65,7 +65,8 @@ def submit(_event=None):
             # returnValue =  'Please enter team side'
             returnValue =  'Please enter team side'
         # elif input_home_score < 0: 
-        elif input_home_score < 0: 
+        elif input_home_score < 0:
+            # returnValue = 'Please enter home score greater than 0'
             returnValue = 'Please enter home score greater than 0'
         elif input_away_score < 0: 
             returnValue = 'Please enter away score greater than 0'
