@@ -70,6 +70,7 @@ def submit(_event=None):
             returnValue = 'Please enter home score greater than 0'
         # elif input_away_score < 0:
         elif input_away_score < 0: 
+            # returnValue = 'Please enter away score greater than 0'
             returnValue = 'Please enter away score greater than 0'
         else:
             returnValue = winner_loser(input_team_side.strip(), input_home_score, input_away_score)
