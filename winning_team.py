@@ -76,6 +76,7 @@ def submit(_event=None):
         else:
             # returnValue = winner_loser(input_team_side.strip(), input_home_score, input_away_score)
             returnValue = winner_loser(input_team_side.strip(), input_home_score, input_away_score)
+        # return display_output.configure(text=returnValue)
         return display_output.configure(text=returnValue)
     except ValueError:
         return display_output.configure(text='Please input a valid score')
