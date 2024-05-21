@@ -16,3 +16,6 @@ person = 'brendan'
 # outcome
 print("Hello " + str(name) + "!")
 print("Hello I am"  + str(person) + "!")
+
+for duplicate in range(9):
+    print("1" * duplicate)
